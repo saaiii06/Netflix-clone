@@ -49,9 +49,7 @@ nav img {
     position: relative;
     z-index: 10;
 }
-.but1 img {
-    filter: brightness(0) invert(1);
-}
+
 .main .buttons .but1 {
     margin-right: 25px;
     opacity: 0.8;
@@ -60,7 +58,9 @@ nav img {
     color: white;
     font-weight: bold;
 }
-
+.but1 img {
+    filter: brightness(0) invert(1);
+}
 .main .but2 {
     background-color: red;
     color: white;
